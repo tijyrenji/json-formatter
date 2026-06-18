@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="border-t border-slate-800/80 px-6 py-4 flex flex-wrap items-center justify-between gap-3">
       {/* Author info */}
       <div className="flex items-center gap-2 text-sm text-slate-500">
-        <span className="font-medium text-slate-400">Tijy Thomas</span>
+        <span className="font-medium text-slate-400">JSON Formatter © 2026 — Built with AI by Tijy Thomas</span>
         <span className="text-slate-700">·</span>
         <a
           href={`mailto:${email}`}
