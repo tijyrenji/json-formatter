@@ -1,16 +1,59 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+## JSON Formatter & Validator
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A lightning-fast, web-based tool designed to help developers and data analysts format, validate, and minify JSON data instantly. Built with a focus on performance, clean UI, and developer productivity.
 
-## React Compiler
+## 🚀 The Tool
+This tool provides a real-time environment to:
+* **Format JSON:** Automatically prettify compressed or messy JSON strings.
+* **Validate:** Instantly catch syntax errors with helpful feedback.
+* **Minify:** Strip whitespace for API payloads.
+* **Customization:** Adjustable indentation levels.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Who is this for?
+* **Web Developers:** Quickly debugging API responses.
+* **Data Analysts:** Cleaning up raw JSON data for reporting.
+* **Students:** Learning about JSON structure and syntax.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **Testing:** Vitest & React Testing Library
+* **Deployment:** Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Local Setup
+Follow these steps to run the project on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone `<repo-url>`
+   (https://github.com/tijyrenji/json-formatter.git)
+
+   cd `<project-folder>` 
+   cd json-formatter
+
+2. **Install Dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server:**
+
+    ```bash
+    npm run dev
+    Application runs on: (http://localhost:<port>)
+    ```
+
+4. **Run tests:**
+
+    ```bash
+    npm test
+    ```
+
+
+### Deployed URL
+
+[Vercel - JSON Formatter](https://json-formatter-ecru-six.vercel.app/)
