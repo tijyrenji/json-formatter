@@ -13,6 +13,7 @@ export default function Toolbar({ onFormat, onMinify, onSample, indent, onIndent
       <button
         id="format-btn"
         type="button"
+        aria-label="Format JSON"
         onClick={onFormat}
         disabled={disabled}
         className={[
